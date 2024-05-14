@@ -134,7 +134,7 @@ const ListarTarefa = () => {
           </TableContainer>
         </CardContent>
         <CardActions>
-          <Button size="small" variant="contained" onClick={handleOpen}>Criar</Button>
+          <Button size="small" variant="contained" onClick={handleOpen} color='warning'>Criar</Button>
           <Button size="small" variant="outlined">Cancelar</Button>
         </CardActions>
       </Card>
